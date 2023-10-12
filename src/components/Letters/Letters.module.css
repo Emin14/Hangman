@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 580px;
+    height: 400px;
+    margin-top: 40px;
+}
+
+.letter {
+    font-size: 34px;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(151, 180, 233);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.letter:active {
+    transform: scale(1.1, 1.1);
+}
+
+.acive {
+    font-size: 34px;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(151, 180, 233);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    color: red;
+}

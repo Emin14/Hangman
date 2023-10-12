@@ -1,0 +1,32 @@
+.list {
+    display: flex;
+    font-size: 38px;
+    justify-content: center;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px rgb(255, 255, 255);
+}
+
+.show {
+    display: block;
+}
+
+.noshow {
+    display: none;
+}
+
+.gameEnd {
+    height: 100px;
+    color: rgb(208, 10, 10);
+    font-size: 64px;
+    font-weight: 600;
+    text-align: center;
+    -webkit-text-stroke: 2px rgb(7, 11, 104);
+}
