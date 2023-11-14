@@ -2,16 +2,14 @@
     display: flex;
     align-content: flex-start;
     flex-wrap: wrap;
-    gap: 5px;
-    width: 580px;
-    height: 400px;
-    margin-top: 40px;
+    gap: 8px;
+    width: 100%;
 }
 
 .letter {
-    font-size: 34px;
-    width: 70px;
-    height: 70px;
+    font-size: 32px;
+    width: 54px;
+    height: 54px;
     background-color: rgb(151, 180, 233);
     border-radius: 50%;
     display: flex;
@@ -19,22 +17,16 @@
     justify-content: center;
     cursor: pointer;
     user-select: none;
+}
+
+.letter:hover {
+    background-color: rgb(101, 132, 191);
 }
 
 .letter:active {
     transform: scale(1.1, 1.1);
 }
 
-.acive {
-    font-size: 34px;
-    width: 70px;
-    height: 70px;
-    background-color: rgb(151, 180, 233);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    user-select: none;
-    color: red;
+.checked {
+text-decoration: line-through red;
 }

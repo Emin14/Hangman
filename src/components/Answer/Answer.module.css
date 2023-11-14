@@ -5,8 +5,8 @@
 }
 
 .item {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     background-color: aquamarine;
     display: flex;
     align-items: center;
@@ -14,19 +14,19 @@
     border: solid 1px rgb(255, 255, 255);
 }
 
-.show {
-    display: block;
-}
-
-.noshow {
+.item span {
     display: none;
 }
 
+.item .show {
+    display: block;
+}
+
 .gameEnd {
-    height: 100px;
-    color: rgb(208, 10, 10);
-    font-size: 64px;
+    height: 62px;
+    color: rgb(187, 72, 72);
+    font-size: 54px;
     font-weight: 600;
     text-align: center;
-    -webkit-text-stroke: 2px rgb(7, 11, 104);
+    -webkit-text-stroke: 1px rgb(9, 9, 9);
 }
