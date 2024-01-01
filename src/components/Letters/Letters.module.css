@@ -3,7 +3,7 @@
     align-content: flex-start;
     flex-wrap: wrap;
     gap: 8px;
-    width: 90%;
+    width: 100%;
     justify-content: center;
 }
 
@@ -38,7 +38,7 @@ text-decoration: line-through red;
     .letter {
         width: 42px;
         height: 42px;
-        font-size: 30px;
+        font-size: 26px;
     }
   }
 
@@ -57,9 +57,9 @@ text-decoration: line-through red;
         width: 100%;
     }
     .letter {
-        width: 26px;
-        height: 26px;
-        font-size: 18px;
+        width: 36px;
+        height: 36px;
+        font-size: 24px;
     }
 }
 
