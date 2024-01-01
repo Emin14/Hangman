@@ -1,3 +1,17 @@
 .wrapper img {
-    width: 100%;
+    width: 64%;
 }
+
+/* // Средние девайсы («таблетки», < 992px)  */
+@media (max-width: 991.98px) {
+    .wrapper img {
+        width: 84%;
+    }
+  }
+
+@media (max-width: 575.98px) {
+    .wrapper img {
+        width: 100%;
+    }
+}
+

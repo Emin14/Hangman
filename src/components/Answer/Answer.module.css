@@ -30,3 +30,32 @@
     text-align: center;
     -webkit-text-stroke: 1px rgb(9, 9, 9);
 }
+
+/* // Малые девайсы («ландшафтные», < 768px) */
+@media (max-width: 767.98px) {
+    .item {
+        width: 70px;
+        height: 70px;
+    }
+
+    .gameEnd {
+        font-size: 44px;
+
+    }
+}
+
+@media (max-width: 575.98px) {
+    .list {
+        font-size: 30px;
+    }
+    .item {
+        width: 44px;
+        height: 44px;
+    }
+
+    .gameEnd {
+        height: 48px;
+        font-size: 38px;
+    }
+}
+

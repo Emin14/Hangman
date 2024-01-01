@@ -1,9 +1,10 @@
-.wrapper {
+.letters {
     display: flex;
     align-content: flex-start;
     flex-wrap: wrap;
     gap: 8px;
-    width: 100%;
+    width: 90%;
+    justify-content: center;
 }
 
 .letter {
@@ -30,3 +31,36 @@
 .checked {
 text-decoration: line-through red;
 }
+
+
+/* // Средние девайсы («таблетки», < 992px)  */
+@media (max-width: 991.98px) {
+    .letter {
+        width: 42px;
+        height: 42px;
+        font-size: 30px;
+    }
+  }
+
+  /* // Малые девайсы («ландшафтные», < 768px) */
+@media (max-width: 767.98px) {
+    .letter {
+        width: 36px;
+        height: 36px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .letters {
+        gap: 4px;
+        width: 100%;
+    }
+    .letter {
+        width: 26px;
+        height: 26px;
+        font-size: 18px;
+    }
+}
+
+

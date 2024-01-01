@@ -62,21 +62,16 @@ export default function Home() {
   if (currentObject) {
     return (
       <div className={styles.container}>
-        <div className={styles.wrapper}>
           <div className={styles.question}>
             <Question id={currentObject.id} question={currentObject.question} />
           </div>
-          <div className={styles.banner}>
+          <div className={styles.wrapper}>
             <Banner count={inCorrectCount} />
-          </div>
-          <div className={styles.letters}>
             <Letters alphabet={alphabetRU} chekedletter={chekedletter} handleClick={handleClick} />
           </div>
           <div className={styles.answer}>
             <Answer arrayOfcurrentAnswer={currentObject.answer.split('')} chekedletter={chekedletter} status={status} />
           </div>
-
-        </div>
       </div>
     );
   }
