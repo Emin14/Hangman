@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "question": "Cənubi Amerikanın qərbində ölkə",
+        "answer": "peru"
+    },
+    {
+        "id": 2,
+        "question": "Ən böyük okean hansıdır",
+        "answer": "sakit"
+    },
+    {
+        "id": 3,
+        "question": "İlan necə heyvandır",
+        "answer": "sürünən"
+    },
+    {
+        "id": 4,
+        "question": "Ən böyük planet",
+        "answer": "yupiter"
+    },
+    {
+        "id": 5,
+        "question": "Dünyanın ən uzun çayı",
+        "answer": "nil"
+    }
+]
