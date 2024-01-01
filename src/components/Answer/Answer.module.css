@@ -5,8 +5,10 @@
 }
 
 .item {
-    width: 90px;
-    height: 90px;
+    width: 100%;
+    max-width: 90px;
+    height: 13vw;
+    max-height: 90px;
     background-color: aquamarine;
     display: flex;
     align-items: center;
@@ -41,23 +43,16 @@
 
 /* // Малые девайсы («ландшафтные», < 768px) */
 @media (max-width: 767.98px) {
-    .item {
-        width: 70px;
-        height: 70px;
-    }
+
 }
 
 @media (max-width: 575.98px) {
     .list {
         font-size: 30px;
     }
-    .item {
-        width: 44px;
-        height: 44px;
-    }
 
     .gameEnd {
-        height: 48px;
+        height: 44px;
         font-size: 38px;
     }
 }

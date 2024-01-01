@@ -3,44 +3,24 @@
   padding: 0 15px;
   width: 100%;
   max-width: 1230px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-
 .question {
-  grid-row: 1/2;
-  grid-column: 1/3;
   padding: 10px 0;
 }
 
 .wrapper {
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
-
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
 }
 
-/* .letters {
-  width: 440px;
-  grid-row: 2/3;
-  grid-column: 2/3;
-  align-self: center;
-} */
-
 .answer {
   padding: 10px 0;
-}
-
-/* // Средние девайсы («таблетки», < 992px)  */
-@media (max-width: 991.98px) {
-  /* .wrapper {
-    grid-template-columns: 1fr 1.2fr;
-  } */
 }
 
 @media (max-width: 575.98px) {
@@ -48,6 +28,6 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 10px;
+      gap: 20px;
   }
 }

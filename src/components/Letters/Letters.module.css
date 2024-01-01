@@ -44,23 +44,10 @@ text-decoration: line-through red;
 
   /* // Малые девайсы («ландшафтные», < 768px) */
 @media (max-width: 767.98px) {
-    .letter {
-        width: 36px;
-        height: 36px;
-        font-size: 24px;
+    .letters {
+        gap: 6px;
     }
 }
 
-@media (max-width: 575.98px) {
-    .letters {
-        gap: 4px;
-        width: 100%;
-    }
-    .letter {
-        width: 36px;
-        height: 36px;
-        font-size: 24px;
-    }
-}
 
 
