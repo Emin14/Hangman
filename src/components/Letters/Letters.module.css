@@ -20,16 +20,19 @@
     user-select: none;
 }
 
-.letter:hover {
-    background-color: rgb(101, 132, 191);
-}
-
 .letter:active {
     transform: scale(1.1, 1.1);
 }
 
 .checked {
 text-decoration: line-through red;
+}
+
+
+  @media (min-width: 767.99px) {
+    .letter:hover {
+        background-color: rgb(101, 132, 191);
+    }
 }
 
 
